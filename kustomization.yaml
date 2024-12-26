@@ -1,0 +1,5 @@
+# kustomization.yaml
+namespace: flux-system  # Define the namespace where the resources should be deployed
+
+resources:
+  - nginxdeployment.yaml  # Point to the file containing your nginx deployment
